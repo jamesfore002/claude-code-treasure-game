@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(netstat -ano)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(vercel *)",
+      "Bash(gh --version)",
+      "Bash(git --version)",
+      "Bash(gh auth *)"
+    ]
+  }
+}
